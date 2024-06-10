@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 41px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+html {
+  direction: rtl;
+}
+.aaa {
+  margin-left: 40px;
+  padding: 20px;
+}
+.MuiBox-root {
+  flex-wrap: wrap;
+}
+.css-46bh2p-MuiCardContent-root {
+  text-align: center;
+}
+.css-sptymy-MuiGrid2-root {
+  width: 96% !important;
+}
+.css-1pi8xg4-MuiGrid2-root {
+  text-align: center;
+}
+.css-0 {
+  justify-content: center;
+}
+h1,
+h2 {
+  font-size: 22px;
+  margin-bottom: 11px;
+}
+.css-1qw96cp:last-child {
+  text-align: center;
+}
+.css-5x48r2 {
+  text-align: center !important;
+  width: 100% !important;
+}
+.all {
+  text-align: center;
+}
+/*  */
+/*  */
+
+.select-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.country-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.loading {
+  text-align: center;
+  font-size: 40px;
+  color: #555;
+  margin-top: 100px;
+}
+
+.place {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.hijri-date,
+.gregorian-date {
+  font-size: 18px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .country-select {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .place {
+    font-size: 22px;
+  }
+
+  .hijri-date,
+  .gregorian-date {
+    font-size: 16px;
+  }
+}
